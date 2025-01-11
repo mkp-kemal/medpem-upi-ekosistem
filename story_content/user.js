@@ -41,78 +41,68 @@ function ExecuteScript(strId)
   }
 }
 
-function Script1()
-{
-  var audio = document.getElementById('bgSong');
-audio.src="musik.mp3";
-audio,load();
-audio.play();
-
+function getAudioElement() {
+  return document.getElementById('bgSong');
 }
 
-function Script2()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.0;
+function Script1() {
+  var audio = getAudioElement();
+  audio.src = "musik.mp3";
+  audio.load();
+  audio.play();
 }
 
-function Script3()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.1;
+function Script2() {
+  var audio = getAudioElement();
+  audio.volume = 0.0;
 }
 
-function Script4()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.2;
+function Script3() {
+  var audio = getAudioElement();
+  audio.volume = 0.1;
 }
 
-function Script5()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.3;
+function Script4() {
+  var audio = getAudioElement();
+  audio.volume = 0.2;
 }
 
-function Script6()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.4;
+function Script5() {
+  var audio = getAudioElement();
+  audio.volume = 0.3;
 }
 
-function Script7()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.5;
+function Script6() {
+  var audio = getAudioElement();
+  audio.volume = 0.4;
 }
 
-function Script8()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.6;
+function Script7() {
+  var audio = getAudioElement();
+  audio.volume = 0.5;
 }
 
-function Script9()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.7;
+function Script8() {
+  var audio = getAudioElement();
+  audio.volume = 0.6;
 }
 
-function Script10()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.8;
+function Script9() {
+  var audio = getAudioElement();
+  audio.volume = 0.7;
 }
 
-function Script11()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 0.9;
+function Script10() {
+  var audio = getAudioElement();
+  audio.volume = 0.8;
 }
 
-function Script12()
-{
-  var audio = documentgetElementById('bgSong');
-audio.volume = 1.0;
+function Script11() {
+  var audio = getAudioElement();
+  audio.volume = 0.9;
 }
 
+function Script12() {
+  var audio = getAudioElement();
+  audio.volume = 1.0;
+}
